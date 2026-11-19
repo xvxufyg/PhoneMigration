@@ -1,0 +1,33 @@
+# Gradle / Kotlin 构建缓存
+.gradle/
+.kotlin/
+build/
+app/build/
+*.gradle
+!build.gradle
+!settings.gradle
+!gradle.properties
+
+# 本地 SDK 路径（每台机器不同）
+local.properties
+
+# 签名密钥（绝不能提交到公开仓库！）
+*.jks
+*.keystore
+app/release.jks
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 图标输入原图（隐私图片，可选保留示例）
+图标/input.png
+
+# 临时文件
+*.log
+inst.log
